@@ -45,5 +45,5 @@ bar.tick_params(labelsize=12)
 plt.xticks(rotation=20)
 plt.tight_layout()
 
-# Save AFTER creating the plot
-plt.savefig('chart.png', dpi=64, bbox_inches='tight')
+# Save WITHOUT bbox_inches
+plt.savefig('chart.png', dpi=64)
